@@ -1,9 +1,3 @@
-
-## Template Notes
-
-Free template from RedQ Inc
-Free startup landing themes in Next & Gatsby by Redq, enter the email & get the copy from [here](https://startuplanding.redq.io/)
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
