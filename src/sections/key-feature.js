@@ -12,25 +12,25 @@ const data = [
     id: 1,
     imgSrc: Vector,
     altText: 'Vector',
-    title: 'Vector Editing',
+    title: 'Content koi?',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Content koi? Content koi? Content koi?',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    altText: 'Content koi?',
+    title: 'Content koi? Content koi?',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Content koi?',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    altText: 'Content koi?',
+    title: 'Content koi? Content koi?',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Content koi? Content koi?',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Eita ekta"
+          title="Hudai placeholder text"
         />
 
         <Grid sx={styles.grid}>
