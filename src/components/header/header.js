@@ -10,6 +10,10 @@ import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
 export default function Header({ className }) {
+  const handleClickInvolved = (e) => {
+    e.preventDefault();
+    window.open('https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae')
+  };
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
@@ -32,12 +36,8 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
-          >
-            Get Started
+          <Button className="donate__btn" variant="secondary" aria-label="Get Started" onClick={handleClickInvolved}>
+            Get Involved
           </Button>
 
           <MobileDrawer />

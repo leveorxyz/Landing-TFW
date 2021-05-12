@@ -11,26 +11,33 @@ import BannerThumb from 'assets/banner-thumb.png';
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
+import client4 from 'assets/sponsor/patreon.png';
 
 const data = [
   {
-    id: 1,
-    path: '#',
-    image: client1,
-    title: 'paypal',
-  },
-  {
-    id: 2,
-    path: '#',
-    image: client2,
-    title: 'google',
-  },
-  {
-    id: 3,
-    path: '#',
-    image: client3,
-    title: 'dropbox',
-  },
+    id: 4,
+    path: 'https://www.patreon.com/theflutterway',
+    image: client4,
+    title: 'patreon',
+  }
+  // {
+  //   id: 1,
+  //   path: '#',
+  //   image: client1,
+  //   title: 'paypal',
+  // },
+  // {
+  //   id: 2,
+  //   path: '#',
+  //   image: client2,
+  //   title: 'google',
+  // },
+  // {
+  //   id: 3,
+  //   path: '#',
+  //   image: client3,
+  //   title: 'dropbox',
+  // },
 ];
 
 export default function Banner() {
@@ -38,6 +45,10 @@ export default function Banner() {
   const handleClick = (e) => {
     e.preventDefault();
     setVideoOpen(true);
+  };
+  const handleClickInvolved = (e) => {
+    e.preventDefault();
+    window.open('https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae')
   };
   return (
     <section sx={styles.banner} id="home">
@@ -50,9 +61,10 @@ export default function Banner() {
             Nice | Clean | Flutter UI
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+            <Button variant="whiteButton" aria-label="Get Started" onClick={handleClickInvolved}>
+                Get Involved
             </Button>
+            >
             <>
               <ModalVideo
                 channel="youtube"
@@ -70,7 +82,7 @@ export default function Banner() {
             </>
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Featured in:</Text>
+            <Text sx={styles.sponsorTitle}>Support Us To Grow More:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>
