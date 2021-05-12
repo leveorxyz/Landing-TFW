@@ -6,10 +6,10 @@ import Image from 'components/image';
 import Partner from 'assets/partner.png';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Section 05',
+  title: 'Need Content 05',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'Need Content 05',
   btnName: 'Get Started',
   btnURL: '#',
 };

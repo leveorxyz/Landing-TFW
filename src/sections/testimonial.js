@@ -107,7 +107,7 @@ export default function TestimonialCard() {
         >
           {data.map((item) => (
             <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
-              <Rating rating={item.review} />
+              {/* <Rating rating={item.review} /> */}
               <Heading as="h3" sx={styles.title}>
                 {item.title}
               </Heading>

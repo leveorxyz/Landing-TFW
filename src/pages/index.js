@@ -28,7 +28,7 @@ export default function IndexPage() {
           <PartnerSection />
           <WorkFlow />
           <TestimonialCard />
-          <SecurePayment />
+          {/* <SecurePayment /> */}
           <Package />
           <Faq />
         </Layout>

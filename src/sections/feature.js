@@ -14,50 +14,50 @@ const data = [
   {
     id: 1,
     imgSrc: Smart,
-    altText: 'Smart',
-    title: 'Smart Features',
+    altText: 'SUBSCRIBERS',
+    title: '111K+',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'YOUTUBE SUBSCRIBERS',
   },
   {
     id: 2,
     imgSrc: Winner,
-    altText: 'Performance',
-    title: 'Fast Performance',
+    altText: 'VIEWS',
+    title: '3.2M+',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'YOUTUBE VIDEO VIEWS',
   },
   {
     id: 3,
     imgSrc: Cloud,
-    altText: 'Content',
-    title: 'Unlimited Content',
+    altText: 'VIDEOS',
+    title: '40+',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'VIDEOS ON YOUTUBE',
   },
   {
     id: 4,
     imgSrc: Setting,
-    altText: 'Customization',
-    title: 'Unlimited Customization',
+    altText: 'PROJECTS',
+    title: '30+',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'FLUTTER GITHUB PROJECTS',
   },
   {
     id: 5,
     imgSrc: Design,
-    altText: 'Productivity',
-    title: 'Boost Productivity',
+    altText: 'STARS',
+    title: '11k+',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'STARS ON GITHUB',
   },
   {
     id: 6,
     imgSrc: Chat,
-    altText: 'Support',
-    title: 'Customer Support',
+    altText: 'RANK',
+    title: '#2',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'MOST POPULAR FLUTTER CHANNEL',
   },
 ];
 
@@ -66,8 +66,8 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="Abu Anwar"
-          title="Ekta awesome chele"
+          slogan="The Flutter Way"
+          title="At A Glance"
         />
 
         <Grid sx={styles.grid}>

@@ -12,25 +12,25 @@ const data = [
     id: 1,
     imgSrc: Vector,
     altText: 'Vector',
-    title: 'Content koi?',
+    title: 'Need Content 02-01',
     text:
-      'Content koi? Content koi? Content koi?',
+      'Need Content 02-01',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Content koi?',
-    title: 'Content koi? Content koi?',
+    altText: 'Content',
+    title: 'Need Content 02-02',
     text:
-      'Content koi?',
+      'Need Content 02-02',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Content koi?',
-    title: 'Content koi? Content koi?',
+    altText: 'Content',
+    title: 'Need Content 02-03',
     text:
-      'Content koi? Content koi?',
+      'Need Content 02-03',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Eita ekta"
-          title="Hudai placeholder text"
+          slogan="Section 02"
+          title="Need content 02"
         />
 
         <Grid sx={styles.grid}>

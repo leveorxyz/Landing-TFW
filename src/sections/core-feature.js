@@ -8,24 +8,24 @@ import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Section 03',
+  title: 'Need Content 03',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
       altText: 'Smart Features',
-      title: 'Smart Features',
+      title: 'Need Content 03-01',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Need Content 03-01',
     },
     {
       id: 2,
       imgSrc: Secure,
       altText: 'Secure Contents',
-      title: 'Secure Contents',
+      title: 'Need Content 03-02',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Need Content 03-02',
     },
   ],
 };
