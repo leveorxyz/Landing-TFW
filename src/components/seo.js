@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup apps landing page',
+  description = 'The Flutter Way',
   author = 'Saad A Akash',
   meta,
-  title = 'startup landing title',
+  title = 'The Flutter Way',
 }) {
   const metaData = [
     {
