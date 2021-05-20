@@ -26,7 +26,7 @@ export default function Footer() {
       </Container>
       <Text sx={styles.footer.copyright}>
         All right reserved - 
-        <Link path="http://theflutterway.com/" target="_blank">
+        <Link path="http://theflutterway.com/" target="_blank" rel="noreferrer">
           The Flutter Way
         </Link>
       </Text>

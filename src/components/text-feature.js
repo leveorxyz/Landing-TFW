@@ -26,7 +26,7 @@ export default function TextFeature({
       )}
 
       {btnName && (
-        <Link href={btnURL} target="_blank" variant="default">
+        <Link href={btnURL} target="_blank" rel="noreferrer" variant="default">
           <Button variant="primary" aria-label={btnName}>
             {btnName}
           </Button>

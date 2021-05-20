@@ -23,7 +23,7 @@ const faqs = [
     title: `Can I publish my video/s on The Flutter Way youtube channel? If so, what should I do?`,
     contents: (
       <div>
-        Sure thing, please follow the process that you just read in the previous section or simply hit <a href="https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae" target="_blank">Get Involved</a> from here or the website header
+        Sure thing, please follow the process that you just read in the previous section or simply hit <a href="https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae" target="_blank" rel="noreferrer">Get Involved</a> from here or the website header
       </div>
     ),
   },
