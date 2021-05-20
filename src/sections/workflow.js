@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Share your idea',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Share your awesome idea on what & how you want to contribute',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Create your content',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'After we get back to you, start creating your awesome content',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Submit your content',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Submit your content as we instruct you after sharing your idea',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Wait for confirmation',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Wait patiently as we review your content quality for feedback',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="Interested in joining the movement?"
+          title="Collaborate with us!"
           isWhite={true}
         />
 

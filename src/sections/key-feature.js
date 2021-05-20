@@ -3,34 +3,34 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import Vector from 'assets/key-feature/vector.svg';
-import Editing from 'assets/key-feature/editing.svg';
-import Speed from 'assets/key-feature/speed.svg';
+import videos from 'assets/graphics/videos.svg';
+import projects from 'assets/graphics/projects.svg';
+import uidesign from 'assets/graphics/ui-design.svg';
 
 const data = [
   {
     id: 1,
-    imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Need Content 02-01',
+    imgSrc: videos,
+    altText: 'Helpful Tutorials',
+    title: 'Helpful Tutorials',
     text:
-      'Need Content 02-01',
+      'We upload a lot of videos to help you to learn and improve your flutter skills',
   },
   {
     id: 2,
-    imgSrc: Editing,
-    altText: 'Content',
-    title: 'Need Content 02-02',
+    imgSrc: projects,
+    altText: 'Free Resources',
+    title: 'Free Resources',
     text:
-      'Need Content 02-02',
+      'We provide free resources for everyone to build production-ready app',
   },
   {
     id: 3,
-    imgSrc: Speed,
-    altText: 'Content',
-    title: 'Need Content 02-03',
+    imgSrc: uidesign,
+    altText: 'UI Designing',
+    title: 'UI Designing',
     text:
-      'Need Content 02-03',
+      'We teach how to create nice & beautiful UI with clean & readable code structure',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Section 02"
-          title="Need content 02"
+          slogan="The Flutter Way"
+          title="Who Are We"
         />
 
         <Grid sx={styles.grid}>

@@ -58,7 +58,7 @@ export default function Banner() {
             The Flutter Way
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Nice | Clean | Flutter UI
+            Want to improve your flutter skill? Join our channel, learn how to become an expert flutter developer and land your next dream job!
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started" onClick={handleClickInvolved}>

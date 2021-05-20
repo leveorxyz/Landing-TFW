@@ -4,28 +4,28 @@ import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
 import CoreFeatureThumb from 'assets/coreFeature.png';
-import Briefcase from 'assets/core-feature/briefcase.svg';
-import Secure from 'assets/core-feature/secure.svg';
+import responsive from 'assets/graphics/responsive.svg';
+import quality from 'assets/graphics/quality.svg';
 
 const data = {
-  subTitle: 'Section 03',
-  title: 'Need Content 03',
+  subTitle: 'The Flutter Way',
+  title: 'Who Are We',
   features: [
     {
       id: 1,
-      imgSrc: Briefcase,
-      altText: 'Smart Features',
-      title: 'Need Content 03-01',
+      imgSrc: responsive,
+      altText: 'Responsive UI',
+      title: 'Responsive UI',
       text:
-        'Need Content 03-01',
+        'Learn to implement how to create web pages and their appearance to meet different screen sizes across all devices',
     },
     {
       id: 2,
-      imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Need Content 03-02',
+      imgSrc: quality,
+      altText: 'Quality & Performance',
+      title: 'Quality & Performance',
       text:
-        'Need Content 03-02',
+        'Explore all of our tutorials to learn clean code, quality code structure and performant smooth UI',
     },
   ],
 };

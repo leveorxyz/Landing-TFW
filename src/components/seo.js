@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'The Flutter Way',
+  description = 'If you want to improve your flutter skill, join our channel for new videos for the latest flutter tips & tutorials',
   author = 'Saad A Akash',
   meta,
   title = 'The Flutter Way',

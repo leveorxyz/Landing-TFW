@@ -4,44 +4,26 @@ import SectionHeader from 'components/section-header';
 import Accordion from 'components/accordion/accordion';
 const faqs = [
   {
-    title: 'How to contact with riders emergency ?',
+    title: 'Can I contact you guys for contract work or consulting?',
     contents: (
       <div>
-        Get your website ads tests delivered at let collect sample from the
-        victory of the managements that supplies best design system which
-        guidelines ever with multiple features.
+        Yes, of course. Shoot a mail at <a href="mailto:contact@theflutterway.com">contact@theflutterway.com</a> and we’ll get back to you shortly.
       </div>
     ),
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'Can I contact/invite you for a talk or a session in an event?',
     contents: (
       <div>
-        Rhino skin maybe thick but it can be quite sensitive to sunburns and
-        insect bites which is why they like wallow so much – when the mud dries
-        it acts as protection from the sunburns and insects.
+        Yes but responses may delay due to time and resource constraints and unavailability.
       </div>
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: `Can I publish my video/s on The Flutter Way youtube channel? If so, what should I do?`,
     contents: (
       <div>
-        Get your blood tests delivered at the home collect a sample from
-        management news. Get your blood tests delivered at the home collect a
-        sample from management news. Get your blood tests delivered at the home
-        collect a sample from management news. Get your blood tests delivered at
-        the home.
-      </div>
-    ),
-  },
-  {
-    title: `New update fixed all bug and issues`,
-    contents: (
-      <div>
-        If you’re looking to hunt a unicorn, but don’t know where to begin, try
-        Lake Superior State University in Sault Ste. Marie, Michigan. Since
-        1971, the university has issued permits to unicorn questers.
+        Sure thing, please follow the process that you just read in the previous section or simply hit <a href="https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae" target="_blank">Get Involved</a> from here or the website header
       </div>
     ),
   },
@@ -51,8 +33,8 @@ export default function Faq() {
     <section sx={{ variant: 'section.faq' }}>
       <Container>
         <SectionHeader
-          title="Frequently asked question"
-          slogan="Get your question answer"
+          title="FAQ"
+          slogan="In case you're wondering"
         />
         <Box
           sx={{

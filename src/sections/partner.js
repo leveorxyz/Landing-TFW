@@ -6,12 +6,12 @@ import Image from 'components/image';
 import Partner from 'assets/partner.png';
 
 const data = {
-  subTitle: 'Section 05',
-  title: 'Need Content 05',
+  subTitle: 'The Flutter Way',
+  title: 'On Socials',
   description:
-    'Need Content 05',
-  btnName: 'Get Started',
-  btnURL: '#',
+    'With 111K subscribers & 3.2M views, “The Flutter Way” is right now the 2nd most popular Flutter youtube channel. We’re teaching tens of thousands of developers how to develop, create and design different web layouts & app UI screens. Collaborate with us in our learning movement by uploading your video on The Flutter Way’s Youtube channel, in case you’re interested',
+  btnName: 'Get Involved',
+  btnURL: 'https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae',
 };
 
 export default function PartnerSection() {

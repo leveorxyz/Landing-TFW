@@ -3,33 +3,34 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
-import Smart from 'assets/feature/smart.svg';
-import Winner from 'assets/feature/winner.svg';
-import Cloud from 'assets/feature/cloud.svg';
-import Setting from 'assets/feature/setting.svg';
-import Design from 'assets/feature/design.svg';
-import Chat from 'assets/feature/chat.svg';
+
+import Sub from 'assets/graphics/subscribe.svg';
+import Views from 'assets/graphics/views.svg';
+import Videos from 'assets/graphics/videos.svg';
+import Projects from 'assets/graphics/projects.svg';
+import Stars from 'assets/graphics/stars.svg';
+import Rank from 'assets/graphics/rank.svg';
 
 const data = [
   {
     id: 1,
-    imgSrc: Smart,
+    imgSrc: Sub,
     altText: 'SUBSCRIBERS',
-    title: '111K+',
+    title: '113K+',
     text:
       'YOUTUBE SUBSCRIBERS',
   },
   {
     id: 2,
-    imgSrc: Winner,
+    imgSrc: Views,
     altText: 'VIEWS',
-    title: '3.2M+',
+    title: '3.3M+',
     text:
-      'YOUTUBE VIDEO VIEWS',
+      'VIDEO VIEWS',
   },
   {
     id: 3,
-    imgSrc: Cloud,
+    imgSrc: Videos,
     altText: 'VIDEOS',
     title: '40+',
     text:
@@ -37,23 +38,23 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Setting,
+    imgSrc: Projects,
     altText: 'PROJECTS',
     title: '30+',
     text:
-      'FLUTTER GITHUB PROJECTS',
+      'FLUTTER PROJECTS',
   },
   {
     id: 5,
-    imgSrc: Design,
+    imgSrc: Stars,
     altText: 'STARS',
-    title: '11k+',
+    title: '13k+',
     text:
-      'STARS ON GITHUB',
+      'STARRED PROJECTS',
   },
   {
     id: 6,
-    imgSrc: Chat,
+    imgSrc: Rank,
     altText: 'RANK',
     title: '#2',
     text:
@@ -67,7 +68,7 @@ export default function Feature() {
       <Container>
         <SectionHeader
           slogan="The Flutter Way"
-          title="At A Glance"
+          title="In Numbers"
         />
 
         <Grid sx={styles.grid}>
