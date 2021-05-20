@@ -8,9 +8,6 @@ import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
 
-import client1 from 'assets/sponsor/paypal.svg';
-import client2 from 'assets/sponsor/google.svg';
-import client3 from 'assets/sponsor/dropbox.svg';
 import client4 from 'assets/sponsor/patreon.png';
 
 const data = [

@@ -9,26 +9,26 @@ import {
   FaFacebookF,
   FaTwitter,
   FaGithubAlt,
-  FaDribbble,
+  FaYoutube,
 } from 'react-icons/fa';
 import menuItems from './header.data';
 
 const social = [
   {
-    path: '/',
+    path: 'https://www.facebook.com/theflutterway',
     icon: <FaFacebookF />,
   },
   {
-    path: '/',
+    path: 'https://twitter.com/theflutterway',
     icon: <FaTwitter />,
   },
   {
-    path: '/',
+    path: 'https://github.com/abuanwar072',
     icon: <FaGithubAlt />,
   },
   {
-    path: '/',
-    icon: <FaDribbble />,
+    path: 'https://youtube.com/c/TheFlutterWay',
+    icon: <FaYoutube />,
   },
 ];
 

@@ -10,8 +10,8 @@ const data = {
   title: 'On Socials',
   description:
     'With 111K subscribers & 3.2M views, “The Flutter Way” is right now the 2nd most popular Flutter youtube channel. We’re teaching tens of thousands of developers how to develop, create and design different web layouts & app UI screens. Collaborate with us in our learning movement by uploading your video on The Flutter Way’s Youtube channel, in case you’re interested',
-  btnName: 'Get Involved',
-  btnURL: 'https://theflutterway.medium.com/how-to-publish-your-video-on-theflutterways-youtube-channel-4191cb0a6dae',
+  btnName: 'Subscribe Today',
+  btnURL: 'https://www.youtube.com/c/TheFlutterWay?sub_confirmation=1',
 };
 
 export default function PartnerSection() {

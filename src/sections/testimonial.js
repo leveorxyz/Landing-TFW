@@ -5,52 +5,49 @@ import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 
-import Avatar1 from 'assets/testimonial/avatar1.png';
-import Avatar2 from 'assets/testimonial/avatar2.png';
-import Avatar3 from 'assets/testimonial/avatar3.png';
-import Avatar4 from 'assets/testimonial/avatar4.png';
+import Avatar1 from 'assets/testimonial/avatar01.jpeg';
+import Avatar2 from 'assets/testimonial/avatar02.jpg';
+import Avatar3 from 'assets/testimonial/avatar03.jpg';
+import Avatar4 from 'assets/testimonial/avatar04.jpg';
 
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Clean and reusable codes with best practices',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I have had the pleasure of working on two flutter projects and what strikes me the most about the work is the ability to write clean and reusable codes with best practices. They makes it so easy to transcribe ideas into beautiful and testable flutter apps. They are a Flutter/Dart gem and has my highest recommendation',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+    name: 'Kolapo Obanewa',
+    designation: '',
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Very straightforward and professional',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Very straightforward, professional and also the best flutter videos in the youtube! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 5,
+    name: 'Roshan Shetty',
+    designation: '',
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Within 3 hours, I learned a lot',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 5,
+      'I like your way you doing your project and you taught us. After I watch this I like and hit the subscribe button and then watch your video playlist one by one!! Within three hours, I learned a lot! I share your channel in my college WhatsApp group!',
+    avatar: Avatar4,
+    name: 'Diadem',
+    designation: '',
   },
   {
-    id: 4,
-    title: 'Modern look & trending design',
+    id: 3,
+    title: 'Absolutely elegant and aesthetically pleasing',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+      'The UIs you create are absolutely elegant and aesthetically pleasing. It inspires other people to create such great ones as well! Thank you for sharing such a beautiful design',
+    avatar: Avatar3,
+    name: 'Akbar Pulatov',
+    designation: '',
   },
+  
 ];
 
 const responsive = {
@@ -80,7 +77,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Testimonial" title="What People Are Saying" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

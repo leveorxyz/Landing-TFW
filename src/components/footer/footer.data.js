@@ -1,97 +1,41 @@
 export default [
   {
-    header: 'About Us',
+    header: 'On Socials',
     items: [
       {
-        path: '/',
-        label: 'Support Center',
+        path: 'https://twitter.com/theflutterway',
+        label: 'Twitter',
       },
       {
-        path: '/',
-        label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
+        path: 'https://www.facebook.com/theflutterway',
+        label: 'Facebook',
       },
     ],
   },
   {
-    header: 'Our Information',
+    header: 'Affiliates',
     items: [
       {
-        path: '/',
-        label: 'Return Policy ',
-      },
-      {
-        path: '/',
-        label: 'Privacy Policy',
-      },
-      {
-        path: '/',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
+        path: 'https://bit.ly/3heGagj',
+        label: 'Rotato',
       },
     ],
   },
   {
-    header: 'My Account',
+    header: 'Patreon',
     items: [
       {
-        path: '/',
-        label: 'Press inquiries',
-      },
-      {
-        path: '/',
-        label: 'Social media ',
-      },
-      {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
+        path: 'https://www.patreon.com/theflutterway',
+        label: 'Support Us',
       },
     ],
   },
   {
-    header: 'Policy',
+    header: 'Other Links',
     items: [
       {
-        path: '/',
-        label: 'Application security',
-      },
-      {
-        path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
+        path: 'https://theflutterway.medium.com/',
+        label: 'Medium Blog',
       },
     ],
   },
