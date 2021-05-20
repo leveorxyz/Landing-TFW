@@ -53,6 +53,7 @@ export default function PriceCard({
           <Button
             variant={header ? 'primary' : 'whiteButton'}
             aria-label={buttonText}
+            onClick={handleClickPriceCard}
           >
             {buttonText}
           </Button>
@@ -61,6 +62,10 @@ export default function PriceCard({
     </Card>
   );
 }
+const handleClickPriceCard = (e) => {
+  e.preventDefault();
+  window.open('https://www.patreon.com/theflutterway')
+};
 
 const styles = {
   pricingBox: {

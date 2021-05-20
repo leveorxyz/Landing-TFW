@@ -7,34 +7,29 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Free Plan',
-    description: 'For Small teams or office',
-    buttonText: 'Signup Now',
+    name: 'Support & Support++',
+    description: '$3 or $5 /mo',
+    buttonText: 'Support on Patreon',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Early access to videos',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+          'Early access of codes',
         isAvailable: true,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Full UI Kit Code',
         isAvailable: false,
       },
       {
         icon: <IoIosCloseCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Exclusive Content',
         isAvailable: false,
       },
     ],
@@ -42,34 +37,29 @@ const packages = [
   {
     header: 'Recommended',
     name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
-    buttonText: 'Signup Now',
+    description: 'All Access',
+    priceWithUnit: '$10 /',
+    buttonText: 'Support on Patreon',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'Early access to videos',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'Early access of codes',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'Full UI Kit Code',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Exclusive Content',
         isAvailable: true,
       },
     ],
@@ -80,8 +70,8 @@ export default function Package() {
     <section id="pricing" sx={styles.pricing}>
       <Container>
         <SectionHeader
-          title="Let’s see how it works"
-          slogan="Whats the function"
+          title="Select a membership level"
+          slogan="Support us to grow"
           isWhite={true}
         />
         <Flex
